@@ -1,0 +1,4 @@
+INFO    2022-02-04 11:35:26,777 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2022-02-04 11:35:26,780 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2022-02-04 11:35:30,010 [main] base.BaseTest  - Launching Chrome
+INFO    2022-02-04 11:35:32,917 [main] base.BaseTest  - Navigating to : https://workpoint.fincart.com/login?returnUrl=%2F

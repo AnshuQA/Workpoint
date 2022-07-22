@@ -1,0 +1,4 @@
+INFO    2021-03-03 14:13:41,770 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2021-03-03 14:13:41,770 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2021-03-03 14:13:53,398 [main] base.BaseTest  - Launching Firefox
+INFO    2021-03-03 14:13:55,618 [main] base.BaseTest  - Navigating to : http://103.139.58.87:8090/login

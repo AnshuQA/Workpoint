@@ -1,0 +1,4 @@
+INFO    2021-01-28 10:59:30,447 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2021-01-28 10:59:30,449 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2021-01-28 10:59:35,923 [main] base.BaseTest  - Launching Chrome
+INFO    2021-01-28 10:59:38,099 [main] base.BaseTest  - Navigating to : http://103.139.58.87:8090/login

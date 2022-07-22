@@ -1,0 +1,4 @@
+INFO    2021-09-14 18:51:42,895 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2021-09-14 18:51:42,897 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2021-09-14 18:51:45,155 [main] base.BaseTest  - Launching Chrome
+INFO    2021-09-14 18:51:46,784 [main] base.BaseTest  - Navigating to : https://workpoint.fincart.com/

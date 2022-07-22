@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+
+
+<listeners>
+    
+    <listener class-name="extentlisteners.ExtentListeners" />
+     <listener class-name="org.uncommons.reportng.HTMLReporter" />
+  
+  </listeners>
+  
+	
+	
+	
+	<test name="Login Test">
+		<classes>
+			<class name="testCases.LoginTest" />
+
+		</classes>
+		
+	</test> <!-- Test -->
+	
+	<test name="Financial Plan Test">
+		<classes>
+			<class name="testCases.FinancialPlanTest" />
+
+		</classes>
+		
+	</test> <!-- Test -->
+		
+	
+	
+
+	
+
+</suite> <!-- Suite -->

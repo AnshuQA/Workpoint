@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href=Sat_Jul_02_17_09_17_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Jul_02_17_09_17_IST_2022.jpg target="_blank"><img src=Sat_Jul_02_17_09_17_IST_2022.jpg height=200 width=200></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-02T17:08:33 IST" name="TestNG Suite" finished-at="2022-07-02T17:11:39 IST" duration-ms="185709">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T17:08:33 IST" name="DashBoard Test" finished-at="2022-07-02T17:11:39 IST" duration-ms="185709">
+      <class name="testCases.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:08:29 IST" name="setUp" finished-at="2022-07-02T17:08:33 IST" duration-ms="4133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="globalSearchByName()[pri:1, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:08:33 IST" name="globalSearchByName" finished-at="2022-07-02T17:09:17 IST" duration-ms="43991" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at pages.Dashboard.globalSearchByNameLeads(Dashboard.java:34)
+at testCases.DashboardTest.globalSearchByName(DashboardTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Sat_Jul_02_17_09_17_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Sat_Jul_02_17_09_17_IST_2022.jpg target="_blank"><img src=Sat_Jul_02_17_09_17_IST_2022.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- globalSearchByName -->
+        <test-method signature="globalSearchByEamild()[pri:2, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:09:17 IST" name="globalSearchByEamild" finished-at="2022-07-02T17:10:02 IST" duration-ms="44983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSearchByEamild -->
+        <test-method signature="globalSearchByPhone()[pri:3, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:10:02 IST" name="globalSearchByPhone" finished-at="2022-07-02T17:10:27 IST" duration-ms="24705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSearchByPhone -->
+        <test-method signature="allNotification()[pri:4, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:10:27 IST" name="allNotification" finished-at="2022-07-02T17:11:12 IST" duration-ms="45103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allNotification -->
+        <test-method signature="assignTask()[pri:5, instance:testCases.DashboardTest@7f811d00]" started-at="2022-07-02T17:11:12 IST" name="assignTask" finished-at="2022-07-02T17:11:39 IST" duration-ms="26670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignTask -->
+      </class> <!-- testCases.DashboardTest -->
+    </test> <!-- DashBoard Test -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

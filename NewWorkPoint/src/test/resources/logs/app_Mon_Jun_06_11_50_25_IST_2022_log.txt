@@ -1,0 +1,4 @@
+INFO    2022-06-06 11:50:25,539 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2022-06-06 11:50:25,540 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2022-06-06 11:50:27,890 [main] base.BaseTest  - Launching Chrome
+INFO    2022-06-06 11:50:29,283 [main] base.BaseTest  - Navigating to : https://uat-workpoint.azurewebsites.net/
